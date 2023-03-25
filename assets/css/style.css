@@ -16,3 +16,9 @@ section{
     width: 100%;
     background-color: rgb(18, 77, 18);
 }
+
+.carouselImg img {
+    width: auto;
+    height: 45em;
+    
+  }
