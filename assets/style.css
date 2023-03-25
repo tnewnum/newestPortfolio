@@ -4,3 +4,7 @@ section{
 .img {
     width: 65%;
 }
+.fun {
+    font-family: "Bitter", sans-serif;
+    font-size: larger;
+  }
