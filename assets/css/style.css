@@ -1,3 +1,6 @@
+* {
+background-color: lightgrey;
+}
 section{
     padding: 50px 0;
 }
@@ -14,7 +17,6 @@ section{
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgb(18, 77, 18);
 }
 
 .carouselImg img {
