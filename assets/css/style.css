@@ -15,6 +15,7 @@ section{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
 }
 
 .carouselImg img {
@@ -30,3 +31,7 @@ section{
 .sasquatch {
     width: 5%;
   } 
+
+  .icon {
+    color: black;
+  }
