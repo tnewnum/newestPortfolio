@@ -1,7 +1,6 @@
 let header = document.getElementById("myHeader");
-let submit = document.getElementById("submit-btn")
-let modal = document.getElementById("myModal")
 console.log(header)
+
 let sticky = header.offsetTop;
 
 
@@ -17,7 +16,3 @@ function scrollFunc () {
     }
 };
 
-submit.addEventListener("shown.bs.modal", function() {
-     // Display the modal alert
-    
-})
