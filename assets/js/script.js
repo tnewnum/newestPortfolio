@@ -1,4 +1,6 @@
 let header = document.getElementById("myHeader");
+let submit = document.getElementById("submit-btn")
+let modal = document.getElementById("myModal")
 console.log(header)
 let sticky = header.offsetTop;
 
@@ -15,16 +17,7 @@ function scrollFunc () {
     }
 };
 
-$(document).ready(function() {
-    // Add a click event listener to the button
-    $("#submit-btn").on("click", function() {
-        // Display the modal alert
-        $("#myModal").css("display", "block");
-    });
-
-    // Add a click event listener to the OK button
-    $("#ok-btn").on("click", function() {
-        // Hide the modal alert
-        $("#myModal").css("display", "none");
-    });
-});
+submit.addEventListener("click", function() {
+     // Display the modal alert
+    modal.css("display", "block");
+})
