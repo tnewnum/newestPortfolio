@@ -17,7 +17,7 @@ function scrollFunc () {
     }
 };
 
-submit.addEventListener("click", function() {
+submit.addEventListener("shown.bs.modal", function() {
      // Display the modal alert
-    modal.css("display", "block");
+    
 })
