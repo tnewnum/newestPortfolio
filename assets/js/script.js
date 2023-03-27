@@ -14,3 +14,17 @@ function scrollFunc () {
         header.classList.remove("sticky");
     }
 };
+
+$(document).ready(function() {
+    // Add a click event listener to the button
+    $("#submit-btn").on("click", function() {
+        // Display the modal alert
+        $("#myModal").css("display", "block");
+    });
+
+    // Add a click event listener to the OK button
+    $("#ok-btn").on("click", function() {
+        // Hide the modal alert
+        $("#myModal").css("display", "none");
+    });
+});
