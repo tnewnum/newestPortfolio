@@ -164,24 +164,26 @@
             <h2><i class="fa-solid fa-at m-3" style="color: #000000;"></i>Me</h2>
           </div>
           
-          <form class="border border-2 rounded">
+          <form action="https://formsubmit.co/thomas.newnum@gmail.com" method="POST" class="border border-2 rounded">
+            <input type="hidden" name="_subject" value="new email from portfolio">
+            <input type="hidden" name="_next" value="https://tnewnum.github.io/newestPortfolio/hold/hold.html">
             <div class="m-4 input-group">
               <span class="input-group-text">
                 <i class="fa-solid fa-envelope" style="color: #000000;"></i>
               </span>             
-              <input type="email" class="form-control me-5" id="email" placeholder="name@example.com">
+              <input type="email" name="email" class="form-control me-5" id="email" placeholder="name@example.com" required>
             </div>
 
             <div class="m-4 input-group">
               <span class="input-group-text">
                 <i class="fa-solid fa-person" style="color: #000000;"></i>
               </span>             
-              <input type="name" class="form-control me-5" id="name" placeholder="Name">
+              <input type="name" class="form-control me-5" id="name" placeholder="Name" required>
             </div>
 
             <div class="form-floating m-4">
               <textarea name="query" id="query" class="form-control" style="height: 140px;"></textarea>
-              <label for="query">Your Email...</label>
+              <label for="query">Your Message:</label>
             </div>
             
             <div class="m-4 text-center">
