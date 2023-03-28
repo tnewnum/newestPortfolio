@@ -16,14 +16,3 @@ function scrollFunc () {
     }
 };
 
-function showModal() {
-    preventdefault ()
-    const name = document.getElementById('email').value;
-    const email = document.getElementById('email').value;
-    const query = document.getElementById('query').value;
-    
-    
-    if (name && email && query) {
-        window.location.href = "thanks.html";
-    }
-}
