@@ -17,13 +17,13 @@ function scrollFunc () {
 };
 
 function showModal() {
+    preventdefault ()
     const name = document.getElementById('email').value;
     const email = document.getElementById('email').value;
     const query = document.getElementById('query').value;
     
-    preventdefault ()
-
+    
     if (name && email && query) {
-        $('reg-modal').modal('show');
+        window.location.href = "thanks.html";
     }
 }
