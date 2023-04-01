@@ -35,3 +35,18 @@ section{
   .icon {
     color: black;
   }
+
+  .logos {
+    width: 20%;
+    margin: 2em;
+  }
+  .css {
+    width: 15%;
+    margin: 2em;
+  }
+
+  .js {
+    width: 20%;
+    margin: 2em;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
