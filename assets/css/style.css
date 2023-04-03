@@ -2,15 +2,17 @@
 section{
     padding: 50px
 }
+
 .img {
     width: 65%;
 }
+
 .fun {
     font-family: "Bitter", sans-serif;
     font-size: larger;
-  }
+}
 
-  /* sticky class added to the header via JS */
+/* sticky class added to the header via JS */
 .sticky {
     position: fixed;
     top: 0;
@@ -18,11 +20,6 @@ section{
     z-index: 10;
 }
 
-.carouselImg img {
-    width: auto;
-    height: 45em;
-    
-  }
 
   .first {
     padding-top: 1em;
@@ -43,6 +40,13 @@ section{
   .css {
     width: 15%;
     margin: 2em;
+  }
+
+  .react {
+    
+      width: 20%;
+      margin: 2em;
+    
   }
 
   .js {
